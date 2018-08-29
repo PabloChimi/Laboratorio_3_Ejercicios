@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="pagina2.php">
+            <label for="nombre">Ingrese nombre</label>
+            
+            <input type="text" name="nombre" id="nombre" placeholder="Ingrese nombre"> <br><br>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Escriba sus comentarios aqui"></textarea>
+
+            <h3>Seleccione poderes</h3>
+            <br><br>
+            <input type="checkbox" name="Vuela" id="" checked>Vuela <br>
+            <input type="checkbox" name="Fuerza" id="">Fuerza <br>
+            <input type="checkbox" name="Invisible" id="">Invisible <br>
+            <br><br>
+
+            <h2>Edutiorial</h2>
+            <br>
+            <input type="radio" name="editorial" id="dc" value="dc">DC Comics <br>
+            <input type="radio" name="editorial" id="marvel" value="marvel">Marvel <br>
+
+            <select name="heroe[]" id="heroe" multiple>
+                <optgroup label="Marvel">
+                        <option value="0">Iron man</option>
+                        <option value="1" selected>Spiderman</option>
+                        <option value="2">Thor</option>
+                        <option value="3">Hulk</option>
+                        <option value="4">jackson</option>
+                        
+                </optgroup>
+                <optgroup label="DC comics">
+                        <option value="5">flash</option>
+                        <option value="6">superman</option>
+                        <option value="7">maravilla</option>
+                        <option value="8">aquaman</option>
+                        <option value="9">batman</option>
+                        
+                </optgroup>
+                </select>
+                <br><br>
+
+                <input type="button" value="Comenzar">
+                <br>
+                <button><img src="enviar.jpg" alt="Icono enviar" width="25px" height="25px"></button>
+                <br>
+                <input type="file" name="" id=""><br>
+
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <label for="">Nombre</label>
+                    <input type="text"><br>
+                    <input type="text"><br>
+                    <input type="text"><br>
+                    <input type="text"><br>
+                    <input type="text"><br>
+                </fieldset>
+                <br>
+                <input type="color" name="" id=""><br>
+                <input type="datetime" name="" id="" required><br>
+            
+            <input type="submit" nombre="">
+    </form>
+</body>
+</html>
