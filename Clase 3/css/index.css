@@ -1,0 +1,52 @@
+h1 {
+    background-color: red;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-indent: 50px;
+    letter-spacing: -3px;
+    word-spacing: 20px;
+}
+
+/*
+h1, #miDiv{
+    background-color: red;
+}
+*/
+/* El de abajo es el id, no el nombre
+otra forma de asignar color es con #ffffff --> usando hexadecimales
+*/
+#miDiv{
+    background-color:rgba(102, 109, 22, 0.3);
+    padding: 10px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.miClase {
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    background: goldenrod url(../iron.jpg) no-repeat fixed center;/*
+    background-color: coral;
+    background-image: url("../iron.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; no scrollea con el resto de la pagina
+    background-position: center;
+    */
+}
+
+.miPe {
+    margin: 25px;
+    color: dodgerblue;
+    text-align: center;
+    border-width: 10px dotted;
+    border-color: grey;
+    border-style: solid;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.trash{
+    margin: 2px;
+}
